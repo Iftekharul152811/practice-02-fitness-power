@@ -1,0 +1,358 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+.menu-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding: 10px;
+    align-items: center;
+}
+
+.company-logo h1 {
+    color: white;
+    font-size: 40px;
+    margin-left: 50px;
+    width: 100%;
+
+}
+
+
+.menu-items>ul {
+    display: flex;
+    text-align: center;
+}
+
+.menu-items li {
+    color: white;
+    margin-right: 40px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.menu-items li:hover {
+    color: tomato;
+    cursor: pointer;
+    display: block;
+}
+
+.menu-items li a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu-items li a:hover {
+    color: tomato;
+    cursor: pointer;
+}
+
+.menu-items>ul>li:hover>ul {
+    display: block;
+}
+
+
+.dropdown {
+    display: none;
+    position: absolute;
+}
+
+.dropdown li {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px;
+}
+
+
+.banner-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    color: white;
+}
+
+.banner-left {
+    width: 50%;
+    padding: 30px;
+}
+
+.banner-right {
+    width: 50%;
+}
+
+.banner-description {
+    width: 100%;
+    padding: 30px;
+}
+
+.banner-title {
+    font-size: 20px;
+    color: red;
+}
+
+.banner-header {
+    font-size: 60px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.banner-paragraph {
+    font-size: 20px;
+    color: darkgray;
+}
+
+.banner-btn {
+    margin-top: 30px;
+    background-color: rgb(255, 0, 43);
+    padding: 15px 30px 15px 30px;
+    color: whitesmoke;
+    font-size: 16px;
+    border-radius: 8px;
+}
+
+.section-two {
+    padding: 50px;
+}
+
+.section-two h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.card {
+    display: flex;
+    padding: 30px;
+    justify-content: space-around;
+}
+
+.card1 {
+    text-align: center;
+    justify-content: space-between;
+    border: 1px solid lightgray;
+    width: 350px;
+    height: 250px;
+    box-shadow: 8px 8px 10px 0px gray;
+    color: grey;
+    font-size: 20px;
+    padding: 20px;
+    margin-top: 50px;
+
+}
+
+.card1:hover {
+    border: 1px solid rgb(8, 248, 8);
+    background-color: aquamarine;
+    margin-top: 0px;
+
+}
+
+.card-icon {
+    width: 50px;
+}
+
+.section-heading {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+}
+
+.about-container {
+    display: flex;
+    color: white;
+    background-color: black;
+}
+
+.about-left {
+    width: 50%;
+    padding: 30px;
+}
+
+.about-left hr {
+    border: 1px solid red;
+    margin-bottom: 50px;
+}
+
+.about-images img {
+    width: 250px;
+    padding-left: 50px;
+}
+
+
+
+.about-right {
+    width: 50%;
+    padding: 30px;
+}
+
+.about-right-h1 {
+    font-size: 60px;
+    color: tomato;
+    margin-bottom: 20px;
+}
+
+.about-right-p {
+    font-size: 18px;
+    color: lightgrey;
+    margin-bottom: 20px;
+}
+
+.workout-list {
+    font-size: 50px;
+    margin-bottom: 20px;
+    color: tomato;
+}
+
+.about-right-list {
+    margin-left: 15px;
+}
+
+.about-right-list li {
+    font-size: 20px;
+    color: lightgrey;
+    padding-bottom: 10px;
+}
+
+.about-us-btn {
+    margin-top: 30px;
+    background-color: rgb(255, 0, 43);
+    padding: 15px 30px 15px 30px;
+    border-radius: 8px;
+}
+
+.about-us-btn a {
+    color: whitesmoke;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.container-contact-us {
+    width: 100%;
+}
+
+.contact-heading {
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 30px;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.contact-container {
+    width: 700px;
+    height: 200px;
+    background-image: url(images/shape/Group_33094_1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.inquiry-text {
+    font-size: 30px;
+}
+
+.chat-btn {
+    height: 40px;
+    padding: 0 40px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+
+
+.service-heading {
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 100px;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.our-services {
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.service {
+    width: 350px;
+    box-shadow: 15px 15px 15px gray;
+}
+
+.upper-part {
+    width: 100%;
+}
+
+.upper-part img {
+    width: 100%;
+}
+
+.middle-part {
+    padding: 10px;
+}
+
+.middle-part h3 {
+    color: red;
+}
+
+.lower-part {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    align-items: center;
+
+}
+
+.button-join {
+    width: 50%;
+
+}
+
+.btn-join {
+    padding: 5px 10px;
+    background-color: tomato;
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+}
+
+.price {
+    width: 50%;
+    text-align: end;
+}
+
+.price h1 {
+    color: red;
+    text-shadow: 1px 1px 1px red;
+}
+
+
+footer {
+    width: 100%;
+    background-color: black;
+    color: white;
+    margin: 50px 0 0 0;
+    padding: 30px;
+    text-align: center;
+}
+
+footer span {
+    color: tomato;
+}
